@@ -69,18 +69,6 @@ public class CoachProfile extends AppCompatActivity {
         });
 
 
-        imageView.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                int height = layout.getHeight();
-                int width = layout.getWidth();
-                double x = layout.getX();
-                double y = layout.getY();
-
-                double centreX=imageView.getX() + imageView.getWidth()  / 2;
-                double centreY=imageView.getY() + imageView.getHeight() / 2;
-            }
-        });
     }
 
     private class getAllOverViewsDetail extends AsyncTask<Void, Void, CoachDetails> {
