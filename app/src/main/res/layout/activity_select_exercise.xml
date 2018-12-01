@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <include layout="@layout/activity_pre_select_exercise" />
+
+
+
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="15dp"
+                android:layout_gravity="center|bottom"
+                android:background="@drawable/button_green_style">
+
+                <Button
+                    android:id="@+id/btn_accept"
+                    android:layout_width="300dp"
+                    android:layout_height="50dp"
+                    android:background="@android:color/transparent"
+                    android:text="تایید"
+                    android:textColor="@color/colorWhite"
+                    android:textSize="18dp" />
+            </RelativeLayout>
+
+        </android.support.design.widget.CoordinatorLayout>
+

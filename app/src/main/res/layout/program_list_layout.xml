@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="125dp"
+        android:background="@drawable/purple_rectangel"
+        android:orientation="horizontal"
+        android:padding="5dp"
+        android:weightSum="100">
+
+
+        <RelativeLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="25"
+            android:gravity="center">
+
+
+            <ImageView
+                android:id="@+id/iv_program"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:layout_marginLeft="10dp"
+                app:srcCompat="@drawable/ic_shape" />
+
+            <TextView
+                android:id="@+id/tv_program"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/iv_program"
+                android:layout_centerInParent="true"
+                android:layout_marginLeft="10dp"
+                android:text="انلاین"
+                android:textColor="@color/colorWhite"
+                android:textSize="14dp" />
+
+
+        </RelativeLayout>
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_margin="5dp"
+            android:layout_weight="40"
+            android:orientation="vertical"
+            android:weightSum="60">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="30">
+
+                <TextView
+                    android:id="@+id/coach_name"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="center|right"
+                    android:paddingLeft="5dp"
+                    android:paddingRight="5dp"
+                    android:text="آرنولد شوارتزنگر"
+                    android:textColor="@color/colorWhite"
+                    android:textSize="14dp" />
+
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="30">
+
+                <TextView
+                    android:id="@+id/coach_speciality"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="center|right"
+                    android:paddingLeft="5dp"
+                    android:paddingRight="5dp"
+                    android:text="یوگا"
+                    android:textColor="@color/colorWhite"
+                    android:textSize="14dp" />
+
+            </RelativeLayout>
+
+
+        </LinearLayout>
+
+
+        <RelativeLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="30"
+            android:gravity="center">
+
+
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:id="@+id/coach_picture"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/arnold_schwarzenegger" />
+
+            <!--<RelativeLayout-->
+                <!--android:layout_width="match_parent"-->
+                <!--android:layout_height="30dp"-->
+                <!--android:alpha="0.6"-->
+                <!--android:layout_margin="4dp"-->
+                <!--android:background="@color/colorGrayishBrown"-->
+                <!--android:layout_alignParentBottom="true">-->
+
+                <!--<com.faraa.sohrabpakravan.dambel.Helpers.CustomRatingBar-->
+                    <!--android:layout_width="match_parent"-->
+                    <!--android:layout_height="match_parent"-->
+                    <!--android:numStars="5"-->
+                    <!--android:rating="3.5"-->
+                    <!--android:layout_margin="3dp"-->
+                    <!--android:padding="10dp"-->
+                    <!--android:stepSize="0.5"/>-->
+
+            <!--</RelativeLayout>-->
+
+
+
+
+        </RelativeLayout>
+
+
+    </LinearLayout>
+</LinearLayout>
+

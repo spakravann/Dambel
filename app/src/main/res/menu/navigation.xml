@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/navigation_dashboard"
+        android:icon="@drawable/ic_dashboard"
+        android:title="@string/dashboard" />
+
+    <item
+        android:id="@+id/navigation_moves"
+        android:icon="@drawable/ic_exercise"
+        android:title="@string/moves" />
+
+    <item
+        android:id="@+id/navigation_coach"
+        android:icon="@drawable/ic_coach"
+        android:title="@string/coach" />
+
+    <item
+        android:id="@+id/navigation_program"
+        android:icon="@drawable/ic_program"
+        android:title="@string/program" />
+
+</menu>
